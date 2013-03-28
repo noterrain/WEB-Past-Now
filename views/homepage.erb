@@ -1,0 +1,25 @@
+<script type="text/javascript" src="jquery-1.9.0.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="layout.css" type="text/css" media="screen">
+ 
+ <html>
+   <head>
+            <title>
+                  homepage
+            </title> 
+      </head>
+<body>
+<div id="homepage"> Past & Now </div>
+ <% for thiscreate in @postcreates %>
+      <p id="newtext"><%= thiscreate.newtext %></p>
+      <p id="createtime"><%= thiscreate.time %></p>
+       <% for comment in thiscreate.comments %>
+       <p id="commentreply"><%= comment.reply %></p>
+       <p id="time"><%= comment.time %></p>
+     <!--  <a href="http://itp.nyu.edu/~tw981/sinatra/html_form/reply/<%= comment.id %>">check</a>-->
+      <% end %>
+      <a  href="http://itp.nyu.edu/~tw981/sinatra/html_form/reply">back</a> 
+     <!-- <a  href="http://itp.nyu.edu/~tw981/sinatra/html_form/create/<%= thiscreate.id %>">check</a>-->
+ <% end %>
+ </body>
+ </html>

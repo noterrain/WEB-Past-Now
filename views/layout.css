@@ -1,0 +1,149 @@
+body {
+  text-align: center;
+  font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-top: 40px;
+}
+ 
+ 
+header{
+  background-color: white;
+width: 100%;
+border-top: 10px solid #fe0f00;
+float: left;
+clear: both;
+padding: 42px 0;
+  
+  
+}
+#pastnow {
+     font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-style: normal;
+     font-weight: 100;
+     font-size: 60px;
+     margin-bottom: 7px;
+     text-align: center;
+     color: rgb(110,191,255);
+     /*color: #fe0f00;*/
+}
+
+#selfcomu{
+     font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+     font-size: 24px;
+     font-style: normal;
+     margin-top: 7px;
+     font-weight: 100;
+     text-align: center;
+     color: rgb(0,0,5);
+
+}
+
+.time {
+      font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+      color: rgb(0,0,5);
+      font-style: italic;
+      font-weight: 100;
+      font-size: 16px;
+      margin-top:5px;
+      margin-left:1000px;
+}
+ 
+.yinhao {
+      font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+      color: rgb(110,191,255);
+      font-weight: 200;
+      font-size: 32px;
+      margin-top:40px;
+}
+.thoughts {
+      font-size: 32px;
+      font-weight: 100;
+      font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+      margin-left:50px;
+      margin-right:50px;
+      margin-top:40px;
+      }
+
+.reply {
+      font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-weight: 100;
+      width: 360px;
+      height: 30px;
+      border: 1px solid #d2d2d2;
+      font-size: 16px;
+      color: rgb(0, 0, 5);
+      text-align: center;
+      background-color: transparent;
+      
+      
+}
+
+.newin{
+      position: relative;
+      top: 56px;
+      font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-weight: 100;
+      width: 660px;
+      height: 30px;
+      border: 1px solid #d2d2d2;
+      font-size: 16px;
+      color: rgb(0, 0, 5);
+      text-align: center;
+      background-color: transparent;
+  
+  
+}
+
+#submit{
+      position: relative;
+      top: 4px;
+      border: hidden;
+      background: rgb(0,0,5);
+      color: rgb(255,255,255);
+      width: 50px;
+      height: 30px;
+      font-size: 14px;
+       
+}
+
+
+#newthoughts{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  top: 28px;
+  font-size: 26px;
+  font-weight: 100;
+  color: rgb(110, 191, 255); 
+}
+
+input{
+      font-family: "BentonSans Thin","BentonSans Light",Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-weight: 100;
+      width: 350px;
+      height: 30px;
+      border: 1px solid #d2d2d2;
+      font-size: 16px;
+      color: rgb(0, 0, 5);
+      text-align: center;
+      background-color: transparent;
+  
+}
+
+#savebutton{
+      position: relative;
+      top: 68px;
+      border: hidden;
+      background: rgb(0,0,5);
+      color: rgb(255,255,255);
+      width: 50px;
+      height: 30px;
+      font-size: 14px;
+}
+
+#back{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  position: relative;
+  top: 86px;
+  font-size: 24px;
+  font-weight: 100;
+  color: rgb(110, 191, 255);   
+}

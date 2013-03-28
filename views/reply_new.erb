@@ -1,0 +1,39 @@
+<script type="text/javascript" src="jquery-1.9.0.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link rel="stylesheet" href="layout.css" type="text/css" media="screen">
+
+
+<html>
+      <head>
+            <title>
+                  Past & Now
+            </title> 
+      </head>
+<body>
+       <div id="pastnow">Past&Now
+       </div>
+<div id="selfcomu">
+      A self communication blog
+</div>
+
+
+
+ <form id="show-form" action="http://itp.nyu.edu/~tw981/sinatra/html_form/reply/save" method="POST" style="display: block;">
+  <!--<div id="some_div" class="hello_div">hello</div>-->
+  <!--<audio src="http://serve.castfire.com/audio/1295906/crooked-hands-under_2012-12-18-173106.128.mp3" id="some_audio"></audio>-->
+  <div class="thoughts"><span class="yinhao">"</span><%= @formerone.newtext %><span class="yinhao">"</span></div>
+  <div class="time"> 2013-02-23 </div>
+  <div><input class="reply" id="field1" type="text" name="replied" value="What do you think now?...."></div>
+  <p><input class="replys" type="hidden" name="formercreate" value="<%= @current %>"></p>
+  <div><input id="submit" type="submit" value="reply"></div>
+</form>
+  <form style="display: none;" id="hidden-form" action="http://itp.nyu.edu/~tw981/sinatra/html_form/create/save" method="POST">
+  <p id="hidden-form"><input class="newin" type="text" name="created"></p>
+  <p ><input id="savebutton" type="submit" value="save"></p>
+  <div id="back"> back</div>
+  </form>
+  <div id="newthoughts" style="display: block;">Have new thoughts? create</div>
+
+
+      
+</body></html>
